@@ -6,9 +6,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>Full PiP Notes</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="stylesheet" href=".styles/main.css">
+    <link rel="manifest" href=".manifest.json">
+    <link rel="apple-touch-icon" href=".icons/icon-192x192.png">
     <meta name="theme-color" content="#007aff">
 </head>
 <body>
@@ -34,13 +34,13 @@
         </div>
     </div>
 
-    <script src="scripts/app.js"></script>
+    <script src="./scripts/app.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/fullpip-notes/service-worker.js')
-      .then(registration => console.log('ServiceWorker registered'))
-      .catch(err => console.log('ServiceWorker registration failed:', err));
-  }
+            navigator.serviceWorker.register('./service-worker.js')
+                .then(registration => console.log('ServiceWorker registered'))
+                .catch(err => console.log('ServiceWorker registration failed:', err));
+        }
     </script>
 </body>
 </html>
