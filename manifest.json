@@ -1,6 +1,6 @@
 {
-    "name": "Full PiP Notes",
-    "short_name": "PiP Notes",
+    "name": "FullPiP Notes",
+    "short_name": "FullPiP Notes",
     "start_url": "/fullpip-notes/",
     "scope": "/fullpip-notes/",
     "display": "standalone",
