@@ -5,7 +5,7 @@
     "scope": "/fullpip-notes/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#007aff",
+    "theme_color": "#ffffff",
     "icons": [
         {
             "src": "/fullpip-notes/icons/icon-192x192.png",
