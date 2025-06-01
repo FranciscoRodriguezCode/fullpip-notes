@@ -1,8 +1,8 @@
 {
     "name": "Full PiP Notes",
     "short_name": "PiP Notes",
-    "start_url": "./index.html",
-    "scope": ".",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#007aff",
