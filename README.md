@@ -1,4 +1,4 @@
-# Full PiP Notes
+# FullPiP Notes
 
 A simple, mobile-friendly note-taking web app designed to work seamlessly with Picture-in-Picture (PiP) mode. Perfect for taking notes while watching videos or following along with tutorials.
 
