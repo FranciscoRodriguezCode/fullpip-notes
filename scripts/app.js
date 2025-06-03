@@ -50,12 +50,19 @@ textBox.addEventListener('keydown', (e) => {
     const lines = textBox.value.split('\n');
     const lastLine = lines[lines.length - 1];
     const isBullet = lastLine.startsWith('- ');
-    const isEmptyBullet = isBullet && lastLine.trim() === '- ';
-        
-    if (isBullet && !isEmptyBullet) {
+    const isEmptyBullet = lastLine.trim() === '-' || lastLine.trim() === '- ';
+  
+    if (isBullet) {
       e.preventDefault();
-      textBox.value = textBox.value + '\n- ';
-      textBox.scrollTop = textBox.scrollHeight;
+      if (isEmptyBullet) {
+        // Remove the empty bullet point and add a new line
+        textBox.value = textBox.value.slice(0, -lastLine.length - 1) + '\n';
+        textBox.scrollTop = textBox.scrollHeight;
+      } else {
+        // Add a new bullet point
+        textBox.value = textBox.value + '\n- ';
+        textBox.scrollTop = textBox.scrollHeight;
+      }
     }
   }
 });
