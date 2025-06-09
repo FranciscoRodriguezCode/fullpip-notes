@@ -12,6 +12,7 @@ A simple, mobile-friendly note-taking web app designed to work seamlessly with P
 - 📱 Works offline as a Progressive Web App (PWA)
 - ⌨️ Responsive keyboard handling
 - 🔒 No data storage - everything stays on your device
+- 🎇 Themes included for Light 🏙️ and Dark 🌃 modes
 
 ## Usage
 
@@ -29,7 +30,7 @@ A simple, mobile-friendly note-taking web app designed to work seamlessly with P
    - Copy all notes to clipboard
   
 ## Things to have in mind
-1. Progressive Web App deletes all text in textbox if app is closed, please save as .txt or copy text to clipboard.
+1. Progressive Web App deletes all text in textbox if app is closed (swiping up from multitasking to kill task), please save as .txt or copy text to clipboard.
 2. To create a new file, simply close app and reopen, you will be prompted to enter a new file name. 
 
 ## Author
